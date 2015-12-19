@@ -182,7 +182,7 @@ def month_check():
 		month = month[0:3]
         	if month in short_months:
                 	status = 1
-                	month = short_months.index(month)
+                	month = short_months.index(month) - 1
                 	return month
         	else:
 			break_line()
